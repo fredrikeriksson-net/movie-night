@@ -1,0 +1,89 @@
+header {
+    background: #bc0000;
+    font-family: "Roboto";
+}
+
+header .header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3em 0;
+}
+
+.logo{
+    height: auto;
+    width: 40%;
+}
+
+.site-navigation ul, .sub-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-navigation ul li a, .sub-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sub-menu ul li a {
+   color: #666; 
+   font-size: 18px;
+}
+
+.sub-menu ul li a:hover {
+   color: #FFF; 
+}
+
+.site-navigation ul li, .sub-menu ul li{
+    margin: 0.3em 0;
+}
+
+
+
+.sub-menu{
+    background: #111;
+}
+
+.sub-menu ul{
+    padding: 0.3em 0;
+    align-items: center;
+}
+
+.active-name{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+header .header-container {
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.logo {
+    width: 10%;
+}
+    
+.site-navigation ul, .sub-menu ul {
+    flex-direction: row;
+}
+
+.sub-menu{
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.active-name{
+  display: block;
+  color: #fff;
+  font-weight: 900;
+    font-size: 20px;
+}
+}

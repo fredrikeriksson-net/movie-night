@@ -1,0 +1,38 @@
+body {
+	background-color: #7b1010;
+}
+
+.centeringDiv{
+	width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fullPage{
+  background: #efefef;
+  box-shadow: 0 1.5em 4em rgba(0, 0, 0, 1);
+	padding: 0;
+}
+
+h1, h2, h3, p, span {
+	font-family: "Roboto";
+}
+
+h1 {
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+}

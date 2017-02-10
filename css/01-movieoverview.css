@@ -1,0 +1,143 @@
+/*	 Movie Night Overview 	*/
+
+/*	Index ---------------
+		¤ Typography
+		¤ Page Structure
+		¤ Header & Nav
+		¤ Content & Media
+		¤ Misc 
+		---------------------
+*/
+
+/* 	¤ Typography --------- */
+
+/* Top Info */
+section.topInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* Title */ 
+section.topInfo h2 {
+	color: #000;
+	padding: 10px;
+}
+
+/* Relasedate */
+section.topInfo h3 {
+	color: #666;
+	padding-right: 10px;
+	margin-bottom: 0px;
+}
+
+/* Bottom Info */
+section.bottomInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* Votes */
+section.bottomInfo h3 {
+	color: #666;
+	padding-left: 10px;
+	margin-top: 0px;
+}
+
+/* Grades */
+section.bottomInfo h3:nth-child(2){
+	padding-right: 10px;
+}
+
+/*	---------------------- */
+
+
+/* 	¤ Page Structure ----- */
+div.mainOverview {
+	display: flex;
+	flex-direction: row;
+}
+
+div.movieContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* max-width: 1200px; */
+}
+
+article.movieThumb {
+	width: 40%;
+	border: 1px solid #666;
+	background-color: #FFF;
+	margin: 30px auto;
+	box-shadow: 0px 4px 10px 0px #666;
+}
+
+
+/*	---------------------- */
+
+
+/* 	¤ Header & Nav ------- */
+
+/* Header Category */
+.fullPage h1 {
+	margin-left: 6%;
+	margin-bottom: 0px;
+	padding-top: 3%;
+	padding-bottom: 0px;
+}
+
+
+
+/*	----------------------
+
+
+/* 	¤ Content & Media ---- */
+
+article.movieThumb img {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #666;
+}
+
+article.movieThumb img.icons {
+	width: 12px;
+	height: 12px;
+	border-bottom: none;
+}
+
+.movieThumb a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+/*	---------------------- */
+
+
+/* 	¤ Misc --------------- */
+
+
+
+
+
+/*	---------------------- */
+
+@media screen and (max-width:768px) { 
+
+/* 	¤ Page Structure ----- */
+div.movieContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+/* 	¤ Content & Media ---- */
+article.movieThumb {	
+	width: 90%;
+}
+
+}

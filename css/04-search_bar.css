@@ -1,0 +1,37 @@
+#search-bar-wrapper {
+	width: 100%;
+	background-color: white;
+	/* height: 40px; */
+	padding: 5px;
+	margin-bottom: 0px;
+	position: relative;
+	box-shadow: 0 6px 10px -6px #000;
+}
+
+#search-bar-wrapper input {
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	outline-color: transparent;
+	border:0;
+	background: url("../img/magnifier.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 40px;
+}
+
+@media screen and (max-width:768px) { 
+
+	#search-bar-wrapper input {
+	width: 100%;
+	}
+	
+}
+
+
+
+
+
